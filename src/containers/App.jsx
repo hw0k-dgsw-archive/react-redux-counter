@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
-import Counter from "/components/Counter";
+import CounterContainer from "/containers/CounterContainer";
 
 const StyledDiv = styled.div`
   position: fixed;
@@ -17,7 +17,7 @@ const StyledDiv = styled.div`
 const App = () => {
   return (
     <StyledDiv>
-      <Counter />
+      <CounterContainer />
     </StyledDiv>
   );
 };
