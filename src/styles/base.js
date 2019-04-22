@@ -4,7 +4,9 @@ export default {
     primaryColorDarken: "#27ae60",
     white: "#ffffff",
     red: "#e74c3c",
-    redDarken: "#c0392b"
+    redDarken: "#c0392b",
+    blue: "#3498db",
+    blueDarken: "#2980b9"
   },
   size: {
     base: "16px",
