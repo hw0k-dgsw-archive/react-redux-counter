@@ -11,7 +11,7 @@ const initialState = Map({
   number: 0
 });
 
-export default handleActions({
+const reducer = handleActions({
   [INCREMENT]: (state, action) => {
     let number = state.get("number");
     return state.set("number", number + action.payload);
@@ -21,3 +21,5 @@ export default handleActions({
     return state.set("number", number - action.payload);
   }
 }, initialState);
+
+export default reducer;
